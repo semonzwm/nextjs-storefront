@@ -8,10 +8,13 @@ const S3_PATHNAME = process.env.MEDUSA_CLOUD_S3_PATHNAME
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+<<<<<<< Updated upstream
   output: "standalone",
   experimental: {
     dynamicIO: false,
   },
+=======
+>>>>>>> Stashed changes
   logging: {
     fetches: {
       fullUrl: true,
